@@ -58,7 +58,7 @@ def main():
         try:
             choice = int(input('\033[31mChoice >> \033[0m'))
             if choice == 0:
-                os.system('python cyb3rtech.py')
+                os.system('python khaled.py')
                 break
             elif choice == 1:
                 phone_number = input('\033[31mPhone Number >> \033[0m')
