@@ -23,7 +23,7 @@ def show_menu():
     print(f"{menu2}")
 
 time.sleep(1)
-webbrowser.open('https://discord.gg/mP6NvAgF2q')
+webbrowser.open('https://discord.gg/C3DtSTkZum')
 
 def main():
     while True:
@@ -32,7 +32,7 @@ def main():
         try:
             choice = int(input('Choise >> '))
             if choice == 0:
-                os.system('python cyb3rtech.py')
+                os.system('python khaled.py')
                 break
             else:
                 print("\033[31m[!] >\033[0m Invalid choice \033[31m< [!]\033[0m")
