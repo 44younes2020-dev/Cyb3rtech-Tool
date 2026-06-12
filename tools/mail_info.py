@@ -126,7 +126,7 @@ def main():
         try:
             choice = int(input('\033[31mChoice >> \033[0m'))
             if choice == 0:
-                os.system('python cyb3rtech.py')
+                os.system('python khaled.py')
                 break
             elif choice == 1:
                 email_info()
