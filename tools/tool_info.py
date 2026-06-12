@@ -37,7 +37,7 @@ def show_menu():
     print(f"\033[31m{menu}")
     print(f"\033[31m{menu2}\033[0m")
     input("\n\033[31mPress Enter to return to the main menu...\033[0m")
-    os.system('python cyb3rtech.py')
+    os.system('python khaled.py')
 
 if __name__ == "__main__":
     show_menu()
