@@ -77,7 +77,7 @@ def main():
         try:
             choice = int(input('\033[31mChoice >> \033[0m'))
             if choice == 0:
-                os.system('python cyb3rtech.py')
+                os.system('python khaled.py')
                 break
             elif choice == 1:
                 user = input('\033[31mPseudo >> \033[0m')
