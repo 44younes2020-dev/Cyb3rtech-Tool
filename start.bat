@@ -1,2 +1,2 @@
-python cyb3rtech.py
+python khaled.py
 pause
